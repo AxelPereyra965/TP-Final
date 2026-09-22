@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C448FA0-1FCD-4DF1-AC2F-19912CF1EB7D}|SQL\\SQL.csproj|d:\\documentos\\utn frgp joel\\materias tup plan 2024\\tp final (ultima materia)\\parkcontrolgrupo28 v4.1 funciona loguien y rol agregado\\parkcontrolgrupo28\\sql\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C448FA0-1FCD-4DF1-AC2F-19912CF1EB7D}|SQL\\SQL.csproj|solutionrelative:sql\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C448FA0-1FCD-4DF1-AC2F-19912CF1EB7D}|SQL\\SQL.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\sql\\usuariosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C448FA0-1FCD-4DF1-AC2F-19912CF1EB7D}|SQL\\SQL.csproj|solutionrelative:sql\\usuariosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B95F325-D60D-40F9-A493-D58304D06E5C}|Dominio\\Dominio.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B95F325-D60D-40F9-A493-D58304D06E5C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B95F325-D60D-40F9-A493-D58304D06E5C}|Dominio\\Dominio.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B95F325-D60D-40F9-A493-D58304D06E5C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C448FA0-1FCD-4DF1-AC2F-19912CF1EB7D}|SQL\\SQL.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\sql\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C448FA0-1FCD-4DF1-AC2F-19912CF1EB7D}|SQL\\SQL.csproj|solutionrelative:sql\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B95F325-D60D-40F9-A493-D58304D06E5C}|Dominio\\Dominio.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\dominio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B95F325-D60D-40F9-A493-D58304D06E5C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BF1CE4-550A-4A23-977A-007F5E2939F7}|ParkControl\\ParkControl.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\parkcontrol\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BF1CE4-550A-4A23-977A-007F5E2939F7}|ParkControl\\ParkControl.csproj|solutionrelative:parkcontrol\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BF1CE4-550A-4A23-977A-007F5E2939F7}|ParkControl\\ParkControl.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\parkcontrol\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{40BF1CE4-550A-4A23-977A-007F5E2939F7}|ParkControl\\ParkControl.csproj|solutionrelative:parkcontrol\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BF1CE4-550A-4A23-977A-007F5E2939F7}|ParkControl\\ParkControl.csproj|D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\parkcontrol\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BF1CE4-550A-4A23-977A-007F5E2939F7}|ParkControl\\ParkControl.csproj|solutionrelative:parkcontrol\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\ParkControl\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ParkControl\\Global.asax.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\ParkControl\\Global.asax.cs",
+              "RelativeToolTip": "ParkControl\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T02:35:35.895Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\SQL\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "SQL\\AccesoDatos.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\SQL\\AccesoDatos.cs",
+              "RelativeToolTip": "SQL\\AccesoDatos.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:54:51.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioSQL.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\SQL\\UsuarioSQL.cs",
+              "RelativeDocumentMoniker": "SQL\\UsuarioSQL.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\SQL\\UsuarioSQL.cs",
+              "RelativeToolTip": "SQL\\UsuarioSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:50:49.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\Dominio\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\Dominio\\Usuario.cs",
+              "RelativeToolTip": "Dominio\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:50:36.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dominio",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\Dominio\\Dominio.csproj",
+              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\Dominio\\Dominio.csproj",
+              "RelativeToolTip": "Dominio\\Dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-08T23:50:12.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\SQL\\Class1.cs",
+              "RelativeDocumentMoniker": "SQL\\Class1.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\SQL\\Class1.cs",
+              "RelativeToolTip": "SQL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:41:28.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\Dominio\\Class1.cs",
+              "RelativeDocumentMoniker": "Dominio\\Class1.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\Dominio\\Class1.cs",
+              "RelativeToolTip": "Dominio\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:40:52.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\ParkControl\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "ParkControl\\Login.aspx.cs",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\ParkControl\\Login.aspx.cs",
+              "RelativeToolTip": "ParkControl\\Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T01:04:58.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\ParkControl\\Login.aspx",
+              "RelativeDocumentMoniker": "ParkControl\\Login.aspx",
+              "ToolTip": "D:\\Documentos\\UTN FRGP JOEL\\Materias Tup PLAN 2024\\TP FINAL (ULTIMA MATERIA)\\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\\ParkControlGrupo28\\ParkControl\\Login.aspx",
+              "RelativeToolTip": "ParkControl\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-09-04T01:02:55.751Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
