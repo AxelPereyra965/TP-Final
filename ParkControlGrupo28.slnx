@@ -1,5 +1,6 @@
-<Solution>
+﻿<Solution>
   <Project Path="Dominio/Dominio.csproj" Id="2b95f325-d60d-40f9-a493-d58304d06e5c" />
   <Project Path="ParkControl/ParkControl.csproj" Id="40bf1ce4-550a-4a23-977a-007f5e2939f7" />
   <Project Path="SQL/SQL.csproj" Id="0c448fa0-1fcd-4df1-ac2f-19912cf1eb7d" />
+  <Project Path="Negocio/Negocio.csproj" Id="c9ed318d-f533-4e6d-9174-22fda37cf157" />
 </Solution>

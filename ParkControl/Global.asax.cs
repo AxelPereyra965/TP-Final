@@ -1,6 +1,3 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-
-<%@ Application Codebehind = "Global.asax.cs", Inherits = "ParkControl.Global", Language = "C#" > ;
 using System;
 using System.Collections.Generic;
 using System.Linq;

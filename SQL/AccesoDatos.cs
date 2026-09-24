@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using Dominio;
@@ -21,8 +22,14 @@ namespace SQL
 
         public AccesoDatos()
         {
-            // Único cambio: database=ParkControl
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=ParkControl; integrated security=true");
+            // La cadena de conexión se define una sola vez en el Web.config del
+            // proyecto ParkControl, bajo <connectionStrings>, con el nombre "ParkControl".
+            ConnectionStringSettings configuracion = ConfigurationManager.ConnectionStrings["ParkControl"];
+
+            if (configuracion == null || string.IsNullOrWhiteSpace(configuracion.ConnectionString))
+                throw new Exception("No se encontró la cadena de conexión 'ParkControl'. Verificar la sección <connectionStrings> del Web.config.");
+
+            conexion = new SqlConnection(configuracion.ConnectionString);
             comando = new SqlCommand();
         }
 
@@ -136,11 +143,6 @@ namespace SQL
                 if (transaccion == null && conexion.State != System.Data.ConnectionState.Closed)
                     conexion.Close();
             }
-        }
-
-        internal int ejecutarScalar()
-        {
-            throw new NotImplementedException();
         }
     }
 }

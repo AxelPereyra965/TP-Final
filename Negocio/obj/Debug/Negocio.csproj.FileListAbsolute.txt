@@ -1,0 +1,24 @@
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\bin\Debug\Negocio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\bin\Debug\Negocio.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\bin\Debug\Dominio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\bin\Debug\SQL.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\bin\Debug\Dominio.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\bin\Debug\SQL.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.Up2Date
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\obj\Debug\Negocio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\Negocio\obj\Debug\Negocio.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\bin\Debug\Negocio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\bin\Debug\Negocio.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\bin\Debug\Dominio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\bin\Debug\SQL.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\bin\Debug\Dominio.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\bin\Debug\SQL.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\obj\Debug\Negocio.csproj.Up2Date
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\obj\Debug\Negocio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\Negocio\obj\Debug\Negocio.pdb

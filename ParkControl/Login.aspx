@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ParkControl.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ParkControl.Login" ClientIDMode="Static" %>
 
 <!DOCTYPE html>
 
-<html class="light" lang="en"><head>
+<html class="light" lang="es"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>ParkControl - Login</title>
+<title>Iniciar sesi&#243;n - ParkControl</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -105,90 +105,91 @@
 </script>
 </head>
 <body class="bg-surface text-on-surface min-h-screen flex items-center justify-center font-body-md text-body-md selection:bg-primary selection:text-on-primary">
+<form id="formLogin" runat="server">
 <div class="w-full max-w-md px-margin-mobile md:px-0">
-<!-- Main Card Container -->
 <div class="bg-surface-container-lowest border border-surface-container-highest rounded-xl p-stack-lg shadow-sm">
-<!-- Logo & Header Section -->
+
 <div class="text-center mb-stack-lg">
 <div class="flex items-center justify-center mb-stack-sm text-primary">
-<span class="material-symbols-outlined text-4xl" data-weight="fill" style="font-variation-settings: 'FILL' 1;">local_parking</span>
+<span aria-hidden="true" class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">local_parking</span>
 <span class="font-headline-xl text-headline-xl text-primary ml-2 tracking-tight">ParkControl</span>
 </div>
-<h1 class="font-headline-lg text-headline-lg text-on-surface mt-stack-sm">Welcome back</h1>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Sign in to access the management console.</p>
+<h1 class="font-headline-lg text-headline-lg text-on-surface mt-stack-sm">Iniciar sesi&#243;n</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Ingres&#225; tus credenciales para acceder al sistema.</p>
 </div>
-<!-- Login Form -->
-<form action="#" class="space-y-stack-md" method="POST">
-<!-- Email Input Group -->
+
+<asp:Panel ID="pnlMensaje" runat="server" Visible="false" role="alert" aria-live="assertive"
+    CssClass="mb-stack-md rounded-lg border border-error bg-error-container px-4 py-3">
+<p class="font-body-sm text-body-sm text-on-error-container"><asp:Literal ID="litMensaje" runat="server" /></p>
+</asp:Panel>
+
+<asp:Panel ID="pnlFormulario" runat="server" DefaultButton="btnLogin" CssClass="space-y-stack-md">
+
 <div>
-<label class="block font-label-caps text-label-caps text-on-surface-variant mb-unit" for="email">Email</label>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-unit" for="txtEmail">Correo electr&#243;nico</label>
 <div class="relative">
-<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-on-surface-variant">
+<div aria-hidden="true" class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-on-surface-variant">
 <span class="material-symbols-outlined text-xl">mail</span>
 </div>
-<input class="block w-full pl-10 pr-3 py-2 bg-surface-container-lowest border border-outline-variant rounded-lg text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-on-tertiary-container focus:ring-opacity-20 focus:border-on-tertiary-container transition-shadow font-body-sm text-body-sm" id="email" name="email" placeholder="admin@parkcontrol.com" required="" type="email"/>
+<asp:TextBox ID="txtEmail" runat="server" TextMode="Email" MaxLength="150"
+    placeholder="nombre@ejemplo.com" CssClass="block w-full py-2 bg-surface-container-lowest border border-outline-variant rounded-lg text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-on-tertiary-container focus:ring-opacity-20 focus:border-on-tertiary-container transition-shadow font-body-sm text-body-sm pl-10 pr-3" />
 </div>
+<asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail"
+    Display="Dynamic" ValidationGroup="Login" CssClass="block font-body-sm text-body-sm text-error mt-1"
+    ErrorMessage="El correo electr&#243;nico es obligatorio." />
 </div>
-<!-- Password Input Group -->
+
 <div>
-<label class="block font-label-caps text-label-caps text-on-surface-variant mb-unit" for="password">Password</label>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-unit" for="txtPassword">Contrase&#241;a</label>
 <div class="relative">
-<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-on-surface-variant">
+<div aria-hidden="true" class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-on-surface-variant">
 <span class="material-symbols-outlined text-xl">lock</span>
 </div>
-<input class="block w-full pl-10 pr-10 py-2 bg-surface-container-lowest border border-outline-variant rounded-lg text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-on-tertiary-container focus:ring-opacity-20 focus:border-on-tertiary-container transition-shadow font-body-sm text-body-sm" id="password" name="password" placeholder="••••••••" required="" type="password"/>
-<button aria-label="Toggle password visibility" class="absolute inset-y-0 right-0 pr-3 flex items-center text-on-surface-variant hover:text-primary transition-colors focus:outline-none" type="button">
-<span class="material-symbols-outlined text-xl">visibility</span>
+<asp:TextBox ID="txtPassword" runat="server" TextMode="Password" MaxLength="100"
+    CssClass="block w-full py-2 bg-surface-container-lowest border border-outline-variant rounded-lg text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-on-tertiary-container focus:ring-opacity-20 focus:border-on-tertiary-container transition-shadow font-body-sm text-body-sm pl-10 pr-10" />
+<button aria-label="Mostrar u ocultar la contrase&#241;a" id="btnVerPassword" type="button"
+    class="absolute inset-y-0 right-0 pr-3 flex items-center text-on-surface-variant hover:text-primary transition-colors focus:outline-none">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">visibility</span>
 </button>
 </div>
-<!-- Forgot Password Link -->
+<asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="txtPassword"
+    Display="Dynamic" ValidationGroup="Login" CssClass="block font-body-sm text-body-sm text-error mt-1"
+    ErrorMessage="La contrase&#241;a es obligatoria." />
 <div class="flex justify-end mt-2">
-<a class="font-body-sm text-body-sm text-on-tertiary-container hover:text-on-tertiary-fixed-variant transition-colors hover:underline underline-offset-4" href="#">Forgot password?</a>
+<%-- TODO: la recuperacion de contrasenia esta en pausa hasta resolver la
+     contradiccion entre los dos documentos de requerimientos. --%>
+<a class="font-body-sm text-body-sm text-on-tertiary-container hover:underline underline-offset-4" href="#">&#191;Olvidaste tu contrase&#241;a?</a>
 </div>
 </div>
-<!-- Remember Me Checkbox (Optional but good UX) -->
-<div class="flex items-center">
-<input class="h-4 w-4 text-primary focus:ring-primary border-outline-variant rounded cursor-pointer" id="remember-me" name="remember-me" type="checkbox"/>
-<label class="ml-2 block font-body-sm text-body-sm text-on-surface-variant cursor-pointer" for="remember-me">
-                        Remember me on this device
-                    </label>
+
+<asp:Button ID="btnLogin" runat="server" Text="Iniciar sesi&#243;n" ValidationGroup="Login"
+    OnClick="btnLogin_Click"
+    CssClass="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm font-label-caps text-label-caps text-on-primary bg-primary hover:bg-primary-container focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors" />
+
+</asp:Panel>
 </div>
-<!-- Submit Button -->
-<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm font-label-caps text-label-caps text-on-primary bg-primary hover:bg-primary-container focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors active:scale-[0.98]" type="submit">
-                    Sign In
-                </button>
-</form>
-</div>
-<!-- Footer Links -->
+
 <div class="text-center mt-stack-lg">
 <p class="font-body-sm text-body-sm text-on-surface-variant">
-                Don't have an account? 
-                <a class="text-on-tertiary-container hover:text-on-tertiary-fixed-variant font-medium hover:underline underline-offset-4 transition-colors" href="#">Sign Up</a>
+&#191;No ten&#233;s una cuenta?
+<%-- TODO: el registro de conductores (requisito 2.1.1) todavia no esta implementado. --%>
+<a class="text-on-tertiary-container font-medium hover:underline underline-offset-4" href="#">Registrate</a>
 </p>
 </div>
-<!-- Bottom Minimal Nav / Support Links -->
-<div class="flex justify-center space-x-gutter mt-stack-md pt-stack-md border-t border-surface-container-high w-full max-w-xs mx-auto">
-<a class="font-label-caps text-label-caps text-on-secondary-container hover:text-primary transition-colors" href="#">Help</a>
-<a class="font-label-caps text-label-caps text-on-secondary-container hover:text-primary transition-colors" href="#">Privacy</a>
-<a class="font-label-caps text-label-caps text-on-secondary-container hover:text-primary transition-colors" href="#">Terms</a>
+
 </div>
-</div>
-<!-- Optional: Micro-interaction Script for Password Visibility -->
+</form>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const togglePasswordBtn = document.querySelector('button[aria-label="Toggle password visibility"]');
-        const passwordInput = document.getElementById('password');
-        const iconSpan = togglePasswordBtn.querySelector('.material-symbols-outlined');
-
-        if (togglePasswordBtn && passwordInput) {
-            togglePasswordBtn.addEventListener('click', () => {
-                const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-                passwordInput.setAttribute('type', type);
-
-                // Toggle icon
-                iconSpan.textContent = type === 'password' ? 'visibility' : 'visibility_off';
-            });
-        }
+    document.addEventListener('DOMContentLoaded', function () {
+        var boton = document.getElementById('btnVerPassword');
+        var campo = document.getElementById('txtPassword');
+        if (!boton || !campo) return;
+        var icono = boton.querySelector('.material-symbols-outlined');
+        boton.addEventListener('click', function () {
+            var esPassword = campo.getAttribute('type') === 'password';
+            campo.setAttribute('type', esPassword ? 'text' : 'password');
+            icono.textContent = esPassword ? 'visibility_off' : 'visibility';
+        });
     });
 </script>
 </body></html>
