@@ -9,3 +9,12 @@ D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Par
 D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\SQL\obj\Debug\SQL.csproj.Up2Date
 D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\SQL\obj\Debug\SQL.dll
 D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\ParkControlGrupo28 v4.1 FUNCIONA LOGUIEN Y ROL AGREGADO\ParkControlGrupo28\SQL\obj\Debug\SQL.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\bin\Debug\SQL.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\bin\Debug\SQL.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\bin\Debug\Dominio.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\bin\Debug\Dominio.pdb
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\obj\Debug\SQL.csproj.AssemblyReference.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\obj\Debug\SQL.csproj.CoreCompileInputs.cache
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\obj\Debug\SQL.csproj.Up2Date
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\obj\Debug\SQL.dll
+D:\Documentos\UTN FRGP JOEL\Materias Tup PLAN 2024\TP FINAL (ULTIMA MATERIA)\Versiones EN WINRAR ParkControl\ParkControlGrupo28\SQL\obj\Debug\SQL.pdb

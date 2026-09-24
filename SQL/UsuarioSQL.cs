@@ -259,6 +259,36 @@ namespace SQL
         }
 
         // ------------------------------------------------------------------
+        // CONTAR POR ROL
+        //
+        // Cuenta en la base con COUNT en lugar de traer la lista completa y
+        // contarla en memoria: el panel solo necesita el número.
+        // ------------------------------------------------------------------
+        public int ContarPorRol(int idRol, bool soloActivos)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                string consulta = "SELECT COUNT(*) FROM Usuarios WHERE IdRol = @idRol";
+                if (soloActivos)
+                    consulta += " AND Activo = 1";
+
+                datos.setearConsulta(consulta);
+                datos.setearParametro("@idRol", idRol);
+
+                return Convert.ToInt32(datos.ejecutarEscalar());
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        // ------------------------------------------------------------------
         // ELIMINAR (baja lógica)
         //
         // No se hace DELETE: apagar el bit Activo conserva el historial de

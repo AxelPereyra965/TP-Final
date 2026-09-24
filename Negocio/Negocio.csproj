@@ -39,6 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutenticacionNegocio.cs" />
+    <Compile Include="PanelAdminNegocio.cs" />
+    <Compile Include="ResumenPanelAdmin.cs" />
     <Compile Include="RolesSistema.cs" />
     <Compile Include="ResultadoAutenticacion.cs" />
     <Compile Include="ResultadoLogin.cs" />

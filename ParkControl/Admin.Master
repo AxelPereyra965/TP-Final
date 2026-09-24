@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.Master.cs" Inherits="ParkControl.AdminMaster" %>
+<!DOCTYPE html>
+<html class="light" lang="es"><head runat="server">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Iniciar sesi&#243;n - ParkControl</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                "colors": {
+                    "surface-container": "#eceef0",
+                    "secondary-container": "#d0e1fb",
+                    "on-error-container": "#93000a",
+                    "on-primary-fixed": "#111c2d",
+                    "on-primary-fixed-variant": "#3c475a",
+                    "on-surface-variant": "#45474c",
+                    "surface-variant": "#e0e3e5",
+                    "on-primary-container": "#8590a6",
+                    "primary-fixed-dim": "#bcc7de",
+                    "secondary": "#505f76",
+                    "surface-container-low": "#f2f4f6",
+                    "primary-container": "#1e293b",
+                    "tertiary-fixed": "#d8e2ff",
+                    "on-background": "#191c1e",
+                    "surface-bright": "#f7f9fb",
+                    "on-tertiary-fixed-variant": "#004395",
+                    "on-secondary-container": "#54647a",
+                    "secondary-fixed-dim": "#b7c8e1",
+                    "tertiary": "#001334",
+                    "inverse-surface": "#2d3133",
+                    "on-tertiary": "#ffffff",
+                    "surface-tint": "#545f73",
+                    "on-secondary-fixed-variant": "#38485d",
+                    "primary-fixed": "#d8e3fb",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-fixed": "#001a42",
+                    "tertiary-fixed-dim": "#adc6ff",
+                    "on-tertiary-container": "#4c8dff",
+                    "outline-variant": "#c5c6cd",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-highest": "#e0e3e5",
+                    "on-secondary-fixed": "#0b1c30",
+                    "outline": "#75777d",
+                    "inverse-primary": "#bcc7de",
+                    "on-primary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "primary": "#091426",
+                    "surface-dim": "#d8dadc",
+                    "on-surface": "#191c1e",
+                    "tertiary-container": "#00275b",
+                    "secondary-fixed": "#d3e4fe",
+                    "background": "#f7f9fb",
+                    "surface": "#f7f9fb",
+                    "surface-container-high": "#e6e8ea",
+                    "on-error": "#ffffff",
+                    "error": "#ba1a1a",
+                    "inverse-on-surface": "#eff1f3"
+                },
+                "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+                },
+                "spacing": {
+                    "stack-md": "16px",
+                    "gutter": "24px",
+                    "stack-sm": "8px",
+                    "margin-desktop": "48px",
+                    "stack-lg": "32px",
+                    "margin-mobile": "16px",
+                    "unit": "4px"
+                },
+                "fontFamily": {
+                    "headline-lg": ["Inter"],
+                    "headline-lg-mobile": ["Inter"],
+                    "label-caps": ["JetBrains Mono"],
+                    "body-sm": ["Inter"],
+                    "headline-xl": ["Inter"],
+                    "data-display": ["JetBrains Mono"],
+                    "body-md": ["Inter"]
+                },
+                "fontSize": {
+                    "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                    "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                    "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                    "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                    "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                    "data-display": ["18px", { "lineHeight": "24px", "fontWeight": "500" }],
+                    "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+                }
+            }
+        }
+    }
+</script>
+<style>
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+</style>
+</head>
+<body class="bg-background text-on-surface font-body-md text-body-md">
+<form id="formAdmin" runat="server">
+
+<nav aria-label="Men&#250; principal" class="h-screen w-64 fixed left-0 top-0 border-r border-outline-variant bg-primary z-50 flex flex-col p-4">
+<div class="flex items-center gap-2 px-2 py-3 mb-stack-md text-on-primary">
+<span aria-hidden="true" class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">local_parking</span>
+<span class="font-headline-lg text-headline-lg tracking-tight">ParkControl</span>
+</div>
+
+<ul class="flex-1 space-y-1">
+<li>
+<a aria-current="page" class="flex items-center gap-3 rounded-lg px-3 py-2 bg-primary-container text-on-primary font-medium" href="PanelAdmin.aspx">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">dashboard</span>
+<span class="font-body-sm text-body-sm">Panel</span>
+</a>
+</li>
+<li>
+<span aria-disabled="true" class="flex items-center gap-3 rounded-lg px-3 py-2 text-on-primary-container cursor-not-allowed select-none" title="Disponible en una etapa posterior">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">garage</span>
+<span class="font-body-sm text-body-sm">Estacionamientos</span>
+<span class="sr-only">(no disponible todav&#237;a)</span>
+</span>
+</li>
+<li>
+<span aria-disabled="true" class="flex items-center gap-3 rounded-lg px-3 py-2 text-on-primary-container cursor-not-allowed select-none" title="Disponible en una etapa posterior">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">sell</span>
+<span class="font-body-sm text-body-sm">Tarifas</span>
+<span class="sr-only">(no disponible todav&#237;a)</span>
+</span>
+</li>
+<li>
+<span aria-disabled="true" class="flex items-center gap-3 rounded-lg px-3 py-2 text-on-primary-container cursor-not-allowed select-none" title="Disponible en una etapa posterior">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">badge</span>
+<span class="font-body-sm text-body-sm">Empleados</span>
+<span class="sr-only">(no disponible todav&#237;a)</span>
+</span>
+</li>
+<li>
+<span aria-disabled="true" class="flex items-center gap-3 rounded-lg px-3 py-2 text-on-primary-container cursor-not-allowed select-none" title="Disponible en una etapa posterior">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">event_available</span>
+<span class="font-body-sm text-body-sm">Reservas</span>
+<span class="sr-only">(no disponible todav&#237;a)</span>
+</span>
+</li>
+<li>
+<span aria-disabled="true" class="flex items-center gap-3 rounded-lg px-3 py-2 text-on-primary-container cursor-not-allowed select-none" title="Disponible en una etapa posterior">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">history</span>
+<span class="font-body-sm text-body-sm">Historial de operaciones</span>
+<span class="sr-only">(no disponible todav&#237;a)</span>
+</span>
+</li>
+</ul>
+
+<ul class="pt-stack-md border-t border-on-primary-container">
+<li>
+<span aria-disabled="true" class="flex items-center gap-3 rounded-lg px-3 py-2 text-on-primary-container cursor-not-allowed select-none" title="Disponible en una etapa posterior">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">settings_accessibility</span>
+<span class="font-body-sm text-body-sm">Accesibilidad</span>
+<span class="sr-only">(no disponible todav&#237;a)</span>
+</span>
+</li>
+</ul>
+</nav>
+
+<div class="ml-64 min-h-screen flex flex-col">
+
+<header class="h-16 w-full sticky top-0 z-40 bg-surface-container-lowest border-b border-outline-variant flex items-center justify-between px-gutter">
+<h2 class="font-label-caps text-label-caps text-on-surface-variant"><%: Page.Title %></h2>
+<div class="flex items-center gap-4">
+<div class="text-right leading-tight">
+<p class="font-body-sm text-body-sm text-on-surface"><%: NombreUsuario %></p>
+<p class="font-label-caps text-label-caps text-on-surface-variant"><%: NombreRol %></p>
+</div>
+<a class="flex items-center gap-1 rounded-lg px-3 py-2 font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" href="Logout.aspx">
+<span aria-hidden="true" class="material-symbols-outlined text-xl">logout</span>
+<span>Cerrar sesi&#243;n</span>
+</a>
+</div>
+</header>
+
+<main class="flex-1 p-gutter lg:p-margin-desktop bg-background">
+<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+</main>
+
+</div>
+</form>
+</body></html>

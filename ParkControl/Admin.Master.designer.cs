@@ -6,12 +6,12 @@
 
 namespace ParkControl
 {
-    public partial class PanelAdmin
+    public partial class AdminMaster
     {
-        /// <summary>Control pnlError.</summary>
-        protected global::System.Web.UI.WebControls.Panel pnlError;
+        /// <summary>Control formAdmin.</summary>
+        protected global::System.Web.UI.HtmlControls.HtmlForm formAdmin;
 
-        /// <summary>Control litError.</summary>
-        protected global::System.Web.UI.WebControls.Literal litError;
+        /// <summary>Control MainContent.</summary>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }
